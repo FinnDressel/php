@@ -1,12 +1,12 @@
 <?php
-if(gradenConverter(65)){
+if(gradenConverter(25)){
 
 }
 
 echo "<br>";
 echo "<br>";
 
-if(delen(5)){
+if(delen(535)){
     echo "Is deelbaar door 3";
 } elseif (!delen(5)){
     echo "Is niet deelbaar";
@@ -15,7 +15,7 @@ if(delen(5)){
 echo "<br>";
 echo "<br>";
 
-$woord = "Pizza";
+$woord = "Zon";
 echo Reverse($woord);
 
 function gradenConverter($celsius){
